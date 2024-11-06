@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #e4e4e4;
+  background-color: #000000;
 }
 
 .head-container {
@@ -38,19 +38,29 @@ body {
 .labletext {
   padding: 0px 30px;
   text-transform: capitalize;
-  color: #8e8e8e;
+  color: #181616;
 }
 
 .inputbox {
   margin: 1px 30px 30px;
-  border: none;
-  border-bottom: solid;
-  color: #8e8e8e;
+  height: 30px;
+  border-bottom: solid 0.9;
+  color: #100c0c;
   outline: none;
 }
 
-.inputbox:active,.inputbox:hover{
-    color: black;
+.inputbox:active,
+.inputbox:hover {
+  color: black;
+}
+
+#course {
+  margin: 1px 30px 30px;
+  height: 30px;
+  border-bottom: solid 0.9;
+  color: #100c0c;
+  outline: none;
+  text-transform: capitalize;
 }
 
 .btn {
@@ -59,7 +69,7 @@ body {
   font-size: large;
   font-weight: 400;
   color: #ffffff;
-  background-color: #1e90ff;
+  background-color: #000000;
   border: none;
   border-radius: 5px;
   outline: none;
