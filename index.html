@@ -1,21 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="head-container">
-      <div class="container">
-        <h1 class="heading">login</h1>
-        <label for="username" class="labletext">username</label>
-        <input type="text" class="inputbox" />
-        <label for="password" class="labletext">password</label>
-        <input type="text" class="inputbox" />
-        <button class="btn">submit</button>
-      </div>
-    </div>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just 99</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="">
+        <!-- this is header bar  -->
+        <div class="flex justify-between items-center p-5 shadow-lg relative gap-2 max-md:w-[120%]">
+            <!-- this is logo name -->
+            <div class="text-2xl -order-1 max-md:order-2 pr-3">9limited</div>
+        <!-- this is menu and menu list -->
+            <div class="w-8"><i class="fa-solid fa-list  menu md:invisible order-2 max-md:-order-1 text-2xl  "></i>
+                <div class=" list list-none flex gap-6 -ml-40 text-lg max-md:flex-col max-md:-ml-4 absolute top-5 max-md:top-20 max-md:gap-10 max-md:text-3xl max-md:bg-[#ccd1d1] max-md:max-h-screen max-md:w-[100%] max-md:items-center max-md:p-5  max-md:hidden ">
+            <li class=""><a href="" class="flex gap-2"><i class="fa-solid pt-1 fa-house"></i>Home</a></li>
+            <li class=""><a href="" class="flex gap-2"><i class="fa-solid pt-1 fa-user"></i>About</a></li>
+            <li class=""><a href="" class="flex gap-2"><i class="fa-solid pt-1 fa-heart"></i>Favorite</a></li>
+            <li class=""><a href="" class="flex gap-2"><i class="fa-solid pt-1 fa-phone"></i>Contect</a></li>
+            <li class=""><a href="" class="flex gap-2"><i class="fa-solid pt-1 fa-question"></i>Help</a></li>
+                </div>
+            </div>
+         <!-- this is search box  -->
+            <div class="flex  border  border-black rounded-md  max-[975px]:w-32 ">
+                <input type="text" class="outline-none rounded-md pl-3 max-[975px]:w-24 max-md:pr-1 "> 
+                <i class="fa-solid fa-magnifying-glass w-8 pr-3 pt-1"></i>
+        </div>
+    </header>
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
 </html>
